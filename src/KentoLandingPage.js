@@ -5,7 +5,7 @@ export default function KentoLandingPage() {
       <section
         className="min-h-screen flex flex-col justify-center items-center text-center p-8 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1528731708534-816fe59f90c5?auto=format&fit=crop&w=1470&q=80')",
+          backgroundImage: "url('/20240402_070302335_iOS.jpg')",
         }}
       >
         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-xl text-white">
