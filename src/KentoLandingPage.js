@@ -3,9 +3,11 @@ export default function KentoLandingPage() {
   return (
     <div className="bg-white text-gray-800 font-sans">
       <section
-        className="min-h-screen flex flex-col justify-center items-center text-center p-8 bg-cover bg-center"
+        className="min-h-screen flex flex-col justify-center items-center text-center p-8 bg-cover bg-top"
         style={{
-          backgroundImage: "url('/20240402_070302335_iOS.jpg')",
+          backgroundImage: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/20240402_070302335_iOS.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "top center",
         }}
       >
         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-xl text-white">
